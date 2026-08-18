@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "yapgg"
 version = "1.0.0"
 authors = [
-  { name="Stephen Cosolito", email="admin@stevecosolito.com" },
+  { name="Steve Cosolito", email="steve@stevecosolito.com" },
 ]
 description = "Yet Another PyGame GUI Library (YAPGG) - A typed, layered UI toolkit for pygame-ce."
 readme = "README.md"
