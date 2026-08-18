@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yapgg"
+version = "1.0.0"
+authors = [
+  { name="Stephen Cosolito", email="admin@stevecosolito.com" },
+]
+description = "Yet Another PyGame GUI Library (YAPGG) - A typed, layered UI toolkit for pygame-ce."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: User Interfaces",
+    "Topic :: Games/Entertainment"
+]
+dependencies = [
+    "pygame-ce>=2.3.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sgcosoli/yapgg"
+"Bug Tracker" = "https://github.com/sgcosoli/yapgg/issues"
